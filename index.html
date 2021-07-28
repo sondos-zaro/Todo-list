@@ -13,17 +13,30 @@
 
 <body>
     <section class="container">
-        <form class="list-form">
-            <label>Add New List</label>
-            <input type="text" placeholder="new list name">
-            <button>+</button>
+
+        <h2 class="list-title">My lists</h2>
+
+        <div class="list-form">
+            <div class="form-class">
+                <label class="first-label">Add New List : </label>
+                <input type="text" id="title-input" placeholder="new list name">
+            </div>
+            <div class="form-class">
+                <label>Expire in day :</label>
+
+                <input id="day-input" type="number " min="1" max="31">
+
+            </div>
+
+            <button id="add-btn">+</button>
 
 
-        </form>
-        <section class="lists">
-            <h2>My lists</h2>
-        </section>
+        </div>
+        <div id="lists">
+
+        </div>
     </section>
+    <script src="./script.js "></script>
 </body>
 
 </html>
