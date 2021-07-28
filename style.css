@@ -5,7 +5,7 @@ body {
 
 .container {
     border: 1px solid rgb(217, 227, 247);
-    width: 70%;
+    width: 35%;
 }
 
 .list-title {
@@ -29,11 +29,7 @@ input {
     border-bottom: 1px solid rgb(217, 227, 247);
 }
 
-.first-label {
-    margin-left: -45px;
-}
-
-#add-btn {
+button {
     background: none;
     border: 1px solid rgb(217, 227, 247);
     margin: 10px;
@@ -48,6 +44,6 @@ input {
     justify-content: center;
 }
 
-#lists span {
-    border-bottom: 1px solid rgb(217, 227, 247);
+#lists p {
+    border-top: 1px solid rgb(217, 227, 247);
 }
